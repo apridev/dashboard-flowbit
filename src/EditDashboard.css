@@ -1,0 +1,65 @@
+/* Aturan untuk semua ukuran layar */
+.custom-width {
+    display: none;
+  }
+
+.custom-icon-navbar{
+  display: block;
+  color: #1a202c;
+}
+
+.custom-btn-view{
+  background-color: #ffffff;
+  color: #1a202c;
+  border: 1px solid #ccc;
+}
+.custom-btn-edit{
+  background-color: #F4CE14;
+  color: #ffffff;
+}
+.custom-btn-delete{
+  background-color: #EE4266;
+  color: #ffffff;
+}
+
+  /* Aturan untuk layar dengan ukuran besar (large) */
+  @media (min-width: 1024px) {
+    .custom-width {
+      display: block;
+      width: 17%; /* Ganti dengan lebar yang diinginkan */
+    }
+    .custom-icon-navbar{
+      display: none;
+    }
+  }
+
+  @media (max-width: 1024px){
+    .custom-fixed-navbar{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+  }
+  @media (min-width: 768px){
+    /* .custom-icon-navbar{
+      display: none;
+    } */
+
+    .custom-card-login{
+      height: 100%;
+    }
+  }
+
+
+  @media (max-width: 768px){
+    .custom-fixed-navbar{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    .custom-sm{
+      max-width: 28rem;
+    }
+  }
