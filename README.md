@@ -1,3 +1,4 @@
+![Thubnail](https://github.com/apridev/dashboard-flowbite/assets/98099518/2d8c0f81-152b-4304-8312-fe70cfaf8615)
 <div>
   <p>Because the creation of this dashboard uses Vite, you need to install your project using Vite by:</p>
   <p><b>npm create vite@latest my-dashboard -- --template react</b></p>
