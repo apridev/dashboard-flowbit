@@ -1,6 +1,6 @@
 <div>
   <p>Because the creation of this dashboard uses Vite, you need to install your project using Vite by:</p>
-  <p><b>npm create vite@latest my-dashboard -- --template react</b>b></p>
+  <p><b>npm create vite@latest my-dashboard -- --template react</b></p>
 </div>
 -----------------------------------------------------------
 </br>
