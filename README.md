@@ -22,7 +22,7 @@
 </br>
 <div>
   <p>After successfully installing TailwindCss, Flowbite and Flowbite-React you can change your <b>tailwind.config.css</b> section with:</p>
-  ```javascript
+```javascript
 const flowbite = require("flowbite-react/tailwind");
 /** @type {import('tailwindcss').Config} */
 export default {
